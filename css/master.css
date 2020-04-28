@@ -6,6 +6,7 @@ body {
   padding: 0;
   font-family: 'Anonymous Pro', monospace;
   background-size: cover;
+  font-size: 20px;
 }
 
 header {
@@ -21,7 +22,6 @@ header .name {
   color: #fff;
   height: 50px;
   line-height: 50px;
-  font-size: 24px;
   float: left;
   font-weight: bold;
 }
