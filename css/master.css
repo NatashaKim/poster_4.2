@@ -81,11 +81,11 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: #fff;
-  background: #2196f3;
+  background: #B9B8B8;
 }
 
 header nav ul li a.active {
-  background: #2196f3;
+  background: #B9B8B8;
 }
 
 .menu-toggle {
@@ -105,8 +105,6 @@ header nav ul li a.active {
     display: block;
   }
   header nav {
-    /* use display none or left:-100% to hide the nav  */
-    /* display: none; */
     position: absolute;
     top: 50px;
     left: -100%;
@@ -127,7 +125,7 @@ header nav ul li a.active {
   }
   header nav ul li.active ul {
     position: relative;
-    background: #003e6f;
+    background: black;
   }
   header nav ul li ul li {
     width: 100%;
