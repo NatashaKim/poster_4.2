@@ -7,19 +7,19 @@ body {
   font-family: 'Anonymous Pro', monospace;
   background-size: cover;
   font-size: 20px;
+  color: white;
 }
 
 header {
   position: absolute;
-  top: 0;
+  top: 2vw;
   left: 0;
-  padding: 0 100px;
-  width: 100%;
+  width: 100vw;
+  padding: 0px 8vw;
   box-sizing: border-box;
 }
 
 header .name {
-  color: #fff;
   height: 50px;
   line-height: 50px;
   float: left;
@@ -95,6 +95,16 @@ header nav ul li a.active {
   font-size: 24px;
   cursor: pointer;
   display: none
+}
+
+footer {
+  position: absolute;
+  bottom: 2vw;
+  width: 100vw;
+  padding: 0px 8vw;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 @media (max-width: 860px) {
